@@ -1,0 +1,83 @@
+/***********************************
+        HEADER SECTION
+************************************/
+.headerMain{
+    background-color: #005986;
+    display: flex;
+    
+}
+
+div > img{
+    scale: 65%;
+    padding:0 0.5px; 
+    justify-content: flex-start;
+
+}
+
+div > input{
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    scale:130%;
+    background-color: #43799e;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+    border:none;
+}
+
+input::placeholder{
+    color:white;
+    text-align:center;
+
+}
+
+select{
+    scale: 70%;
+    justify-content: space-evenly;
+    background-color: #005986;
+    border: none;
+    color: white;
+}
+
+/***********************************
+        SUB-HEADER SECTION
+************************************/
+.headerSub{
+    background-color: #43799e;
+    display: flex;
+    
+}
+
+.headerSubSub{
+    background-color: #053650;
+    max-height: 50px;
+    display: flex;
+    color:white  
+}
+ul.mainMenuOptions {
+    display: flex;
+    align-items: stretch;
+    list-style-type: none;
+    padding: 0 .5em;
+}
+
+ul.mainMenuOptions li{
+    padding:0 50px
+}
+
+li:hover{
+    cursor: pointer;
+    border-bottom: white;
+}
+
+
+
+
+/***********************************
+        BODY SECTION
+************************************/
+
+/***********************************
+        FOOTER SECTION
+************************************/
